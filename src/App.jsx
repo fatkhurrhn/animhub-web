@@ -7,6 +7,7 @@ import Search from './pages/SearchPage';
 import WatchPage from './pages/WatchPage';
 import DetailPage from './pages/DetailPage';
 import ExplorePage from './pages/ExplorePage';
+import Tess from './pages/Tess';
 
 function App() {
   return (
@@ -18,6 +19,12 @@ function App() {
         <Route path="/detail/:type/:slug" element={<DetailPage />} />
 
         <Route path="/watch/:type/:slug" element={<WatchPage />} />
+
+        {/* <Tess slug="jingai-kyoushitsu-no-ningengirai-kyoushi-episode-5-subtitle-indonesia" type="anime" />
+        <Tess slug="the-daily-life-of-the-immortal-king-episode-13-subtitle-indonesia" type="donghua" /> */}
+
+
+        {/* <Route path="/watch/:type/:slug" element={<Tess />} /> */}
 
         {/* Routes with bottom navigation */}
         <Route element={<MainLayout />}>
